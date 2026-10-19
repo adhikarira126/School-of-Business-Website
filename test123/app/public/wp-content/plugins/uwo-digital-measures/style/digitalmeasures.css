@@ -1,0 +1,45 @@
+/* ::: Digital Measures Data
+-------------------------------------- */
+#education,
+#awards,
+#grants {
+  list-style: inherit;
+  list-style-position: inside;
+}
+
+.publication i,
+.presentation i {
+  font-style: italic;
+}
+
+.degree {}
+
+.degree>.degree_level,
+.degree>.subject {
+  font-weight: bold;
+}
+
+.degree>.subject:after {
+  content: ','
+}
+
+.degree>.withafter:after {
+  content: ','
+}
+
+.degree>* {
+  white-space: nowrap
+}
+
+.degree:last-child {
+  margin-bottom: 1em;
+}
+
+.pub-meta-school:after {
+  content: ','
+}
+
+.dm-list {
+  list-style: inherit;
+  list-style-position: inside;
+}
